@@ -10,6 +10,10 @@
     padding-left: 0px !important;
 }
 
+.no-right-padding {
+    padding-right: 4px;
+}
+
 .sm-link {
     padding-left: 0px;
     padding-right: 8px;
@@ -22,4 +26,8 @@
     padding-left: 0px;
     padding-right: 8px;
     font-size: large;
+}
+
+#test {
+    background-color:red;
 }
