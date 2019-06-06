@@ -3,8 +3,23 @@
     padding-right: 8px;
     width: 48px;
     height: 48px;
+    vertical-align: middle;
 }
 
 .no-left-padding {
     padding-left: 0px !important;
+}
+
+.sm-link {
+    padding-left: 0px;
+    padding-right: 8px;
+    font-size: large;
+    text-decoration: none;
+}
+
+#portfolio-button {
+    padding-top: 16px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-size: large;
 }
