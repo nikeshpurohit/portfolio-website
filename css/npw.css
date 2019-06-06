@@ -1,0 +1,10 @@
+.sm-icon {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+.no-left-padding {
+    padding-left: 0px !important;
+}
