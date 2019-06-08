@@ -72,10 +72,11 @@
     max-height: 100%;
     max-width:100%;
     min-width: 70%;
-    background: white;
+    background: lightgrey;
     overflow: hidden;
     position:static;
     margin: 4px;
+    border-radius: 30px;
 }
 
 .project-card-image {
