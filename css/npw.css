@@ -58,6 +58,7 @@
     cursor: initial;
     box-sizing: border-box;
     margin-left: 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .project-card {
@@ -67,10 +68,11 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     height: 500px;
     max-height: 100%;
-    width:400px;
+    max-width:360px;
     background: white;
     overflow: hidden;
-    margin: 16px;
+    position:static;
+    align-self: center;
 }
 
 .project-card-image {
@@ -114,9 +116,15 @@
 .section-grid {
     height: 100%;
     display: grid;
-    grid-gap: 0px;
+    grid-gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     line-grid:create;
+}
+
+.stick-to-top {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
 }
 
 #test {
