@@ -76,26 +76,33 @@
     overflow: hidden;
     position:static;
     margin: 4px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .project-card-image {
     flex-grow: 1;
     background-size: cover;
     background-position: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .project-card-title {
     transition: background-color 200ms ease;
     position: relative;
-    z-index: 1;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     color: black;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    
 }
 
 .project-card-content {
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     overflow-y: auto;
 }
 
