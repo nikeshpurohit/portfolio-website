@@ -142,3 +142,8 @@
     background-color:red;
 }
 
+#note {
+    font-style: italic;
+    padding-top: 10px;
+}
+
