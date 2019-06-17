@@ -18,6 +18,8 @@
     text-decoration: none;
 }
 
+.center-justify {text-align:center;}
+
 
 .sm-link {
     padding-left: 0px;
@@ -44,7 +46,7 @@
 }
 
 .skill {
-    margin-top: 0px;
+    margin-top: 10px;
     display: inline-block;
     height: 38px;
     padding: 2 30px;
