@@ -14,6 +14,11 @@
     padding-right: 4px;
 }
 
+.link-no-underline {
+    text-decoration: none;
+}
+
+
 .sm-link {
     padding-left: 0px;
     padding-right: 8px;
@@ -136,6 +141,12 @@
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 0;
+}
+
+.mobile-hide{visibility:hidden;}
+
+@media (min-width: 400px) {
+    .mobile-hide {visibility:visible;}
 }
 
 #test {
