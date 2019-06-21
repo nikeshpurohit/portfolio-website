@@ -147,7 +147,7 @@
 
 .mobile-hide{visibility:hidden;}
 
-@media (min-width: 400px) {
+@media (min-width: 550px) {
     .mobile-hide {visibility:visible;}
 }
 
